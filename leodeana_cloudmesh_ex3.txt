@@ -1,0 +1,27 @@
+leodeana
+
+# ######################################################################
+# Starting vm->leodeana_2 on cloud->india using image->futuresystems/ubuntu-14.04, flavor->m1.small, key->leodeana_ubuntu-key
+# ######################################################################
+{'cloud': 'india',
+ 'cm_user_id': 'leodeana',
+ 'flavor_id': u'2',
+ 'image_id': u'6a6a3474-8194-44ac-9f56-70cb93207f21',
+ 'key': u'leodeana_ubuntu-key',
+ 'name': u'leodeana_2',
+ u'server': {u'OS-DCF:diskConfig': u'MANUAL',
+             u'adminPass': '******',
+             u'id': u'722531cd-9906-410f-a2bb-18d4044a1e9f',
+             u'links': [{u'href': u'http://i5r.idp.iu.futuregrid.org/v2/2f841c236fc04e14a24d2655d9726eb5/servers/722531cd-9906-410f-a2bb-18d4044a1e9f',
+                         u'rel': u'self'},
+                        {u'href': u'http://i5r.idp.iu.futuregrid.org/2f841c236fc04e14a24d2655d9726eb5/servers/722531cd-9906-410f-a2bb-18d4044a1e9f',
+                         u'rel': u'bookmark'}],
+             u'security_groups': [{u'name': u'default'}]}}
+
+leodeana
+
+# ######################################################################
+# Deleting vm->leodeana_1 on cloud->india
+# ######################################################################
+{'msg': 'success'}
+time consumed: 6.07 s
