@@ -1,0 +1,18 @@
+Title: A survey of Hadoop framework: Understanding Hadoop components and how is it supporting Big Data
+
+Team: 
+Leonardo Barros Almeida de Ana
+Email: leonardo.deana@gmail.com
+GitHub: leodeana
+portalname: leodeana
+Description:
+A survey on the main concepts of the Apache Hadoop framework, explaining its main components, MapReduce and HDFS, advantages, applications, how it’s supporting big data in large companies,  and the new trends on this technology.
+
+•	any proprietary issues
+No proprietary issue — this uses public data
+
+•	specific aims you intent to complete
+Understanding apache Hadoop functionalities and its support in big data for large corporations
+
+Artifacts:
+A Survey paper and a GitHub repository with everything being there, including this description
