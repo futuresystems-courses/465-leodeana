@@ -1,0 +1,13 @@
+---
+- hosts: all
+  remote_user: ubuntu
+  sudo: yes
+  tasks:
+    - name: install apache2
+      apt: name=apache2 update_cache=yes state=latest
+      notify:
+      - start apache2
+
+  handlers:
+    - name: start apache2
+      service: name=apache2 state=started
